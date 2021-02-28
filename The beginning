@@ -1,0 +1,22 @@
+//
+//     ContentView.swift
+//     shared
+//
+//     Created by Jaykob Owens on 2/24/21
+//
+
+import SwiftUI
+
+struct ContentView: View {
+    var body: some View {
+        Text ("Hello, welcome to your world!")
+            .padding()
+    }
+}
+
+struct ContentView_Previews:
+    PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
+}
